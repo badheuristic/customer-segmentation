@@ -9,16 +9,21 @@ This project performs customer segmentation using K-Means clustering. It groups 
 - Spending Score (Categorical: Low/Average/High -> encoded to 1/2/3)
 
 ## Installation
-1.  Create and activate a virtual environment
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate
-    ```
+Create and activate a virtual environment
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
 
-2.  Install dependencies
-    ```bash
-    pip install -r requirements.txt
-    ```
+Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+For NixOS users:
+```bash
+nix develop
+```
 
 ## Usage
 ```bash
